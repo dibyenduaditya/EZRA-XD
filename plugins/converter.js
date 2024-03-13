@@ -135,17 +135,7 @@ command(
       buff,
       {
         packname: packname || config.STICKER_DATA.split(";")[0],
-        author: author || config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
-body: `𝙏𝙖𝙠𝙚𝙙 𝙏𝙤 ${match}`,
-sourceUrl: "",
-mediaUrl: "",
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}
-      },
-      "sticker"
+        author: author || config.STICKER_DATA.split(";")[1],
     );
   }
 );

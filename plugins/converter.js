@@ -27,13 +27,6 @@ let buff = await getBuffer(`https://vihangayt.me/maker/text2gif?q=${match}`);
 });
 
 
-/* Copyright (C) 2024 Louis-X0.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-Louis-X0 - Zeta-XD
-*/
-
-
 command(
   {
     pattern: "fancy",
@@ -49,28 +42,13 @@ command(
       listall("Ezra").forEach((txt, num) => {
         text += `${(num += 1)} ${txt}\n`;
       });
-        text += "\n\n𝐄𝐙𝐑𝐀-𝐗𝐃"
-      return await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗘𝗭𝗥𝗔 𝗙𝗔𝗡𝗖𝗬 𝗠𝗘𝗡𝗨" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
-body: "",
-sourceUrl: "",
-mediaUrl: "",
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }}, caption: (text)}, {quoted: message });
+      
     } else {
       message.reply(styletext(message.reply_message.text, parseInt(match)));
     }
   }
 );
 
-
-/* Copyright (C) 2024 Louis-XD.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-Louis-XD - Zeta-XD
-*/
 
 command(
   {
@@ -85,16 +63,7 @@ command(
     let buff = await m.quoted.download();
     message.sendMessage(
       buff,
-      { packname: config.STICKER_DATA.split(";")[0], author: config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝐄𝐙𝐑𝐀-𝐗𝐃",
-body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙄𝙣𝙩𝙤 𝙎𝙩𝙞𝙘𝙠𝙚𝙧",
-sourceUrl: "",
-mediaUrl: "",
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Ou56ggv.jpeg" }} },
-      "sticker"
+      { packname: config.STICKER_DATA.split(";")[0], author: config.STICKER_DATA.split(";")[1],
     );
   }
 );

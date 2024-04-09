@@ -17,10 +17,10 @@ module.exports = {
   HANDLERS: process.env.PREFIX || '^[.]',
   BRANCH: "master",
   STICKER_DATA: process.env.STICKER_DATA || "𝐙𝐞𝐭𝐚-𝐗𝐃;𝐁𝐚𝐝𝐚𝐧 𝐬𝐞𝐫⚇",
-  BOT_INFO: process.env.BOT_INFO || "𝐄𝐳𝐫𝐚𝐡𝐡-𝐗𝐃;𝐙𝐞𝐭𝐚𝐡𝐡;https://i.imgur.com/nAkM1zV.mp4",
-  AUDIO_DATA: process.env.AUDIO_DATA || "𝐳𝐞𝐭𝐚𝐚𝐡𝐡;𝐞𝐳𝐫𝐚𝐚𝐡𝐡-𝐱𝐝;https://i.imgur.com/Ou56ggv.jpeg",
+  BOT_INFO: process.env.BOT_INFO || "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ];✪⏤͟͞★⃝ꪶ‎𝐀𝐝𝐢𝐭𝐲𝐚-𝐗𝐝-𖥘✪͜͡➺;https://i.imgur.com/nAkM1zV.mp4",
+  AUDIO_DATA: process.env.AUDIO_DATA || "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ];✪⏤͟͞★⃝ꪶ‎𝐀𝐝𝐢𝐭𝐲𝐚-𝐗𝐝-𖥘✪͜͡➺;https://i.imgur.com/Ou56ggv.jpeg",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
-  CAPTION: process.env.CAPTION || "𝐳𝐞𝐭𝐚𝐚𝐡𝐡👁️!",
+  CAPTION: process.env.CAPTION || "[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]",
   WORK_TYPE: process.env.WORK_TYPE || "private",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
